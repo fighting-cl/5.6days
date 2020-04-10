@@ -1,0 +1,46 @@
+ .clearfix:after {
+    content: "";
+    display: block;
+    line-height: 0;
+    clear: both;
+  }
+  
+  .clearfix {
+    zoom: 1;
+  }
+  .all {
+    position: relative;
+  }
+  .res {
+    width: 200px;
+    height: 850px;
+    background-color: skyblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .res h1 {
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+  }
+  .content {
+    position: absolute;
+    left: 210px;
+    top: 0;
+  }
+  li {
+    list-style: none;
+    margin-right: 30px;
+  }
+  .msg ul li, .contact ul li {
+    float: left;
+  }
+  .msg ul li h4, .contact ul li h4 {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .des ul li h4, .edu ul li h4, .item ul li h4{
+    position: relative;
+    margin-bottom: 0;
+    top: 13px;

@@ -1,0 +1,71 @@
+ * {
+   padding: 0;
+   margin: 0;
+ }
+ .clearfix:after {
+    content: "";
+    display: block;
+    line-height: 0;
+    clear: both;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .bottom {
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+  }
+   li {
+    list-style: none;
+    margin-right: 30px;
+  }
+  .all {
+    position: relative;
+    border: 1px solid rgba(219, 219, 219, 1);
+  }
+  .res {
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+  }
+  .res h1 {
+    color: #fff;
+    margin-left: 20px;
+    line-height: 80px;
+  }
+  .left {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    height: 505px;
+    width: 150px;
+    background-color: #ccc;
+    z-index: -1;
+  }
+  .msg, contact, .des, .edu, .item {
+    width: 100%;
+    height: 100px;
+  }
+  .msg h3, .contact h3, .des h3, .edu h3, .item h3 {
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 30px;
+  }
+  .msg ul, .contact ul, .des ul, .edu ul, .item ul {
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  .msg ul li, .contact ul li {
+    display: inline-block;
+  }
+  .msg ul li h4, .contact ul li h4, .des ul li h4, .edu ul li h4, .item ul li h4 {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .des h3, .edu h3, .item h3 {
+    position: relative;
+    top: -19px;
+  }
+  .des h4, .des h4, .item h4 {
+    line-height: 20px;
+  }
